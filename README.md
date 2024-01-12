@@ -18,7 +18,7 @@ ANSD. Bulletin Mensuel des Statistiques Economiques. Agence National de la Stati
 
 # File Descriptions 
 
-Bieconomic_Simulation_Code.jl is the code used for all the bioeconomic model simulations in the paper. 
+Bieconomic_Simulation_Code.jl is the code used for all the bioeconomic model simulations in the paper. Note these simulations take around 55 hours to run.  
 
 Bioeconomic_Model_Main_Results.do is the code used to create the main results figures: Figures 1, 3, 4, S1, S2, and S3. 
 
