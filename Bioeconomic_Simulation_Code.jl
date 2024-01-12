@@ -63,29 +63,29 @@ function parameterized_disease_ecology(du,u,p,t)
 end
 
 # household model parameters
-θf = 0.55
-θg = 0.3
-θh = 0.1
-θl = 0.05
-pricef = 1 #originally 290 FCFA
-priceg = 1.72 #originally 500 FCFA
-priceu = 300/290 #originally 270 FCFA
-δ = 0.6
-alphad = 0.4
-alphal = 0.5
-alphau = 0.05
-alphav = 0.05
-r_i = 0.3
-betav = 14.4942
-gamma1 = 0.2595
-hf = 0.000384
+θf = 0.55 # coefficient on food in the utility funciton
+θg = 0.3 # coefficient on the general household good in the utility funciton
+θh = 0.1 # coefficient on health in the utility function
+θl = 0.05 # coefficient on leisure in teh utility funciont
+pricef = 1 # originally 290 FCFA, normalized price of food
+priceg = 1.72  #originally 500 FCFA, normalized price of the household good
+priceu = 300/290 # originally 270 FCFA, normalized price of fertilizer
+δ = 0.6 # amount of vegetation that becomes compost
+alphad = 0.4 # Coefficient on land in food production
+alphal = 0.5 # Coefficient on labor in food production
+alphau = 0.05 # Coefficient on fertilizer in food production
+alphav = 0.05 # Coefficient on vegetation in food production
+r_i = 0.3 # substitution parameter
+betav = 14.4942 # Coefficient for harvesting vegetation
+gamma1 = 0.2595 # exponent on labor in harvesting vegetation
+hf = 0.000384 # Coefficeint on food consumption in health status function
 e = ℯ
-labor_scale_f = 150
-labor_scale_v = 150
+labor_scale_f = 150 # scale for labor shares to days
+labor_scale_v = 150 # scale for labor shares to days
 
 # labor and land endowment
-labor_e = 7
-land = 0.5
+labor_e = 7 # household members
+land = 0.5 # household land
 
 # fertilizer impact on vegetation growth
 ρ = 0.01
@@ -128,10 +128,10 @@ I2_0 = 200 # starting value infected snails
 P_0 = 130000 # starting value cercarie
 
 # years
-years = 20;
+years = 20; # simulation time
 
 # simulations
-simul = 1000;
+simul = 1000; # number of simulations 
 
 # initial infection draw
 pr = 0.25;
