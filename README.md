@@ -4,7 +4,7 @@ This repository contains all simulation code, data files produced from the simul
 
 # Data Avalability Statement 
 
-The data that support the findings of this study that are simulation based are openly available in this repository at https://github.com/mdoruska/Bioeconomic_Model. 
+The data that support the findings of this study that are simulation based are openly available in this repository at https://github.com/mdoruska/Bioeconomic_Model. Information on licensing can be found in the file LICENSE. 
 
 Additional data that support the findings of this study can be found in the repository Data and Code for "A planetary health innovation for disease, food, and water challenges in Africa" in Zenodo: https://doi.org/10.5281/zenodo.7765059, from the World Bank data repository at www.microdata.worldbank.org reference SEN_2018_EHCVM_v02_M, and from the Agence National de la Statistique et de la Démographie de la République du Sénégal at http://www.ansd.sn/index.php?option=com_ansd&view=titrepublication&id=9&Itemid=287. 
 
