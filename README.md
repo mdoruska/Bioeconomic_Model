@@ -44,6 +44,10 @@ Step 2: Put all data and code in a folder titled "BioeconomicModelResults". All 
 
 Step 3: Run the file Bieconomic_Simulation_Code.jl. This file produces the simulation results for the paper. It outputs the .csv files in this repository which can be used to directly replicate the paper's figures. 
 
+# Contact Information
+
+For more information, reach out to Molly Doruska via email at mjd438[at]cornell[dot]edu. 
+
 Step 4: Run the additional .do and .jl files to replicate the papers figures and tables. 
 
 
