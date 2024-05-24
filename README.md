@@ -34,7 +34,7 @@ Factor_Cost_Shares.do is the code used to estimate the expenditure shares used t
 
 Vegetation_Production_Functino.do is the code used to estimate the vegetation production function. This code creates Table S8. 
 
-All .csv files are produced by Bioecnomic_Simualtion_Code.jl and are used by Bioeconomic_Model_Main_Results.do and Fertilizer_Infection_Results.do to create the core results. 
+All .csv files are produced by Bioecnomic_Simualtion_Code.jl and are used by Bioeconomic_Model_Main_Results.do and Fertilizer_Infection_Results.do to create the core results. Each .csv file has a corresponding codebook that describes the data in the file. 
 
 # Computing Environment and Packages 
 
