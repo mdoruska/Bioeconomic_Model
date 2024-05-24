@@ -450,6 +450,8 @@ twoway (rarea lower_income upper_income time if land == 1, color(gs14%50)) (rare
 
 grc1leg fig1_a fig1_b fig1_c fig1_d fig1_e, cols(2) legendfrom(fig1_e) position(5) ring(0) scheme(cleanplots) iscale(0.5) saving(Figure_1.svg, replace)
 
+graph export "Figure_1.png", as(png) name("Graph") replace 
+
 *** sensitivity analysis results graphs ***
 *** fertilizer feedback ***
 
@@ -696,6 +698,8 @@ twoway (rarea lower_income upper_income time if rho == 1, color(gs14%50)) (rarea
 
 grc1leg fig3_a fig3_b fig3_c fig3_d fig3_e, cols(2) legendfrom(fig3_e) position(5) ring(0) scheme(cleanplots) iscale(0.5) saving(Figure_3.svg, replace)
 
+graph export "Figure_3.png", as(png) name("Graph") replace 
+
 *** vegetation growth rate ***
 *** import 50th percentile Saint Louis data *** 
 import delimited using SaintLouisNoLaborLand50_r025.csv, clear
@@ -862,6 +866,8 @@ twoway (rarea lower_fert upper_fert time if r == 1, color(gs14%50)) (rarea lower
 twoway (rarea lower_income upper_income time if r == 1, color(gs14%50)) (rarea lower_income upper_income time if r == 2, color(gs14%50)) (rarea lower_income upper_income time if r == 3, color(gs14%50)) (line med_income time if r == 1)  (line med_income time if r == 2)  (line med_income time if r == 3), xtitle("Year") ytitle("Income (1,000 FCFA)") title("E", position(11)) xlabel(1(1)20) ylabel(0(10)100) legend(order(4 "r = 0.025" 5 "r = 0.05" 6 "r = 0.075")) scheme(cleanplots) name(fig4_e, replace)
 
 grc1leg fig4_a fig4_b fig4_c fig4_d fig4_e, cols(2) legendfrom(fig4_e) position(5) ring(0) scheme(cleanplots) iscale(0.5) saving(Figure_4.svg, replace) 
+
+graph export "Figure_4.png", as(png) name("Graph") replace 
 
 *** recolonization rate ***
 *** import 50th percentile Saint Louis data *** 
@@ -1030,6 +1036,8 @@ twoway (rarea lower_income upper_income time if n0 == 1, color(gs14%50)) (rarea 
 
 grc1leg figs1_a figs1_b figs1_c figs1_d figs1_e, cols(2) legendfrom(figs1_e) position(5) ring(0) scheme(cleanplots) iscale(0.5) saving(Figure_S1.svg, replace)
 
+graph export "Figure_S1.png", as(png) name("Graph") replace 
+
 *** fertilizer price ***
 *** import 50th percentile Saint Louis data *** 
 import delimited using SaintLouisNoLaborLand50_pu200.csv, clear
@@ -1197,6 +1205,8 @@ twoway (rarea lower_income upper_income time if pu == 200, color(gs14%50)) (rare
 
 grc1leg figs2_a figs2_b figs2_c figs2_d figs2_e, cols(2) legendfrom(figs2_e) position(5) ring(0) scheme(cleanplots) iscale(0.5) saving(Figure_S2.svg, replace) 
 
+graph export "Figure_S2.png", as(png) name("Graph") replace 
+
 *** price of the household good ***
 *** import 50th percentile Saint Louis data *** 
 import delimited using SaintLouisNoLaborLand50_p300.csv, clear
@@ -1363,3 +1373,6 @@ twoway (rarea lower_fert upper_fert time if pg == 300, color(gs14%50)) (rarea lo
 twoway (rarea lower_income upper_income time if pg == 300, color(gs14%50)) (rarea lower_income upper_income time if pg == 500, color(gs14%50)) (rarea lower_income upper_income time if pg == 700, color(gs14%50)) (line med_income time if pg == 300)  (line med_income time if pg == 500)  (line med_income time if pg == 700), xtitle("Year") ytitle("Income (1,000 FCFA)") title("E", position(11)) xlabel(1(1)20) ylabel(0(10)100) legend(order(4 "pg = 300" 5 "pg = 500" 6 "pg = 700")) scheme(cleanplots) name(figs3_e, replace)
 
 grc1leg figs3_a figs3_b figs3_c figs3_d figs3_e, cols(2) legendfrom(figs3_e) position(5) ring(0) scheme(cleanplots) iscale(0.5) saving(Figure_S3.svg, replace) 
+
+graph export "Figure_S3.png", as(png) name("Graph") replace 
+
