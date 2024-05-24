@@ -36,6 +36,14 @@ Vegetation_Production_Functino.do is the code used to estimate the vegetation pr
 
 All .csv files are produced by Bioecnomic_Simualtion_Code.jl and are used by Bioeconomic_Model_Main_Results.do and Fertilizer_Infection_Results.do to create the core results. 
 
+# Computing Environment and Packages 
+
+All code was created in Julia 1.6.2 and Stata 16. 
+
+The Julia code uses the following packages: NLopt, Plots, LinearAlgebra, Distributions, Random, DifferentialEquations, DelimitedFiles
+
+The Stata code uses the following packages: blindschemes, cleanplots, palettes, schemepack, grc1le, estout
+
 # Replication Instructions 
 
 Step 1: Download the necessary data from the World Bank and Zenodo. 
