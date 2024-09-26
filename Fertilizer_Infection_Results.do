@@ -657,4 +657,4 @@ gen s_infect = start_infection/10
 twoway (rarea lower_fert upper_fert s_infect, color(gs14%50)) (connected med_fert s_infect), scheme(cleanplots) xtitle("Starting Infection Probability") ytitle("Median First Period Fertilizer Use (kg per hectare)") xlabel(0(0.1)1, format(%9.1fc)) ylabel(2.0(0.5)4.0, format(%9.1fc)) legend(off)
 graph export Fertilizer_Infection_First.svg, replace 
 
-graph export "Figure_2.png", as(png) name("Graph") replace 
+graph export "Figure_3.png", as(png) name("Graph") replace 
