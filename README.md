@@ -32,7 +32,9 @@ Expenditure_Shares.do is the code used to estimate the expenditure shares used t
 
 Factor_Cost_Shares.do is the code used to estimate the expenditure shares used to calibrate the bioeconmic model. This code creates Table S4. 
 
-Vegetation_Production_Functino.do is the code used to estimate the vegetation production function. This code creates Table S8. 
+Vegetation_Production_Function.do is the code used to estimate the vegetation production function. This code creates Table S8. 
+
+Back_of_the_Envelope_Calculations.do is the code used for the back of the envelope calculations for the broader income benefits of aquatic vegetation removal. 
 
 All .csv files are produced by Bioecnomic_Simualtion_Code.jl and are used by Bioeconomic_Model_Main_Results.do and Fertilizer_Infection_Results.do to create the core results. Each .csv file has a corresponding codebook that describes the data in the file. 
 
@@ -52,7 +54,9 @@ Step 2: Put all data and code in a folder titled "BioeconomicModelResults". All 
 
 Step 3: Run the file Bieconomic_Simulation_Code.jl. This file produces the simulation results for the paper. It outputs the .csv files in this repository which can be used to directly replicate the paper's figures. 
 
-Step 4: Run the additional .do and .jl files to replicate the papers figures and tables. 
+Step 4: Run the main results figure file, Bioeconomic_Model_Main_Results.do. 
+
+Step 5. Run the additional .do files and .jl files to replicate the additional figures and tables. 
 
 # Contact Information
 
